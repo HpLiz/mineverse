@@ -1,0 +1,245 @@
+body{
+    font-family: 'Montserrat', sans-serif ;
+    overflow-x: hidden;
+    /*background-image: linear-gradient(to right bottom, #ba7b7c, #ca9ba8, #d7bccd, #e7deea, #ffffff);
+    background-color: #1d1018;*/
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(29,16,24,1) 100%);
+}
+/*Navbar*/
+#menu{
+    background-color: #ba7b7c;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+}
+#menu li > a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+#menu li a:hover{
+    color: black;
+}*/
+/*Carrusel*/
+.carousel_inner{
+    max-height: 30rem;
+}
+/*Carrusel de links*/
+/*.contenedor-new{
+    /*position: relative;
+    width: 1200px;
+    height: 300px;
+    background-color: #efc9dd;
+    margin: auto auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}*/
+.contenedor_c{
+    /*position: relative;*/
+    width: 200;
+    height: 300px;
+    /*background-color: #efc9dd;*/
+    margin: auto auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.carousel_c-item img {
+    width: 100%; /* Ajusta el ancho de las imágenes al 100% del contenedor */
+    height: auto; /* Mantiene la relación de aspecto original */
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Cambia el último valor (0.5) para ajustar la opacidad */
+    padding: 10px;
+    color: #fff; /* Cambia el color del texto si es necesario */
+}
+
+/*Body*/
+.contenedor{
+    /*position: relative;*/
+    width: 1200px;
+    /*height: 800px;*/
+    background-color: #efc9dd;
+    margin: auto auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Navegación*/
+.navegacion{
+    text-align: center;
+    margin-top: 15px;
+    width: 1150px;
+}
+
+.custom-row {
+    margin-right: -1px;
+    margin-left: -1px;
+  }
+.custom-column {
+    border-right: 10px solid #efc9dd;
+    border-bottom: 20px solid #efc9dd;
+
+}
+.img-separator {
+    margin-top: 10px;
+}
+
+.custom-column h3 {
+    color: #efc9dd;
+}
+  
+.custom-column p {
+    color: #efc9dd;
+}
+  
+.custom-column a {
+    color: #ba7b7c;
+}
+
+/*Titulos y parrafos*/
+.custom-h2{
+    font-weight: bold;
+    width: 800px;
+    background-color: #1d1018;  
+    color: #fff;
+    margin: 50px auto;
+    font-size: 50px;
+}
+.custom-p {
+    font-weight: bold;
+    width: 750px;
+    color: black;
+    margin-bottom: 20px;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+/*Footer*/
+.footer {
+    background-color: #1d1018;
+    padding: 20px 20px;
+  }
+  
+  .cont-foo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-image {
+    width: 100px;
+  }
+  
+  .footer-icons {
+    display: flex;
+    gap: 10px;
+    color: #fff;
+  }
+  
+  .footer-icon {
+    font-size: 24px;
+    color: #fff;
+  }
+
+/*Modals*/
+
+/*Para la linea con texto*/
+.line-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .line {
+    flex-grow: 1;
+    border-top: 0.5px solid #c7c7bd;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+.line-text {
+    margin: 0 10px;
+    font-weight: normal;
+}
+  
+
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+  /*Modal google*/
+.modal-body-gg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+  
+.h2-gg{
+    text-align: center;
+    margin: 50px 0;
+}
+.p-gg{
+    margin: 50px 0;
+}
+
+.continuar-inline {
+    display: flex;
+    align-items: center;
+}
+  
+/*Modal git*/
+.modal-body-git{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #0d1117;
+}
+.form-git{
+    background-color: #161b22;
+    margin: 10px;
+    padding: 20px;
+    width: 350px;
+}
+.form-git .fab{
+    font-size: 50px;
+    padding: auto 0;
+    color: #fff;
+}
+.form-git button{
+    margin-top: 20px;
+}
+.form-git .icono{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+  
+
+/*Media*/
+@media (max-width:768px){
+    #intro{
+        width: 90% !important;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media(max-width: 570px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
